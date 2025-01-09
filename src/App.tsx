@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useAuthenticator } from '@aws-amplify/ui-react';
-import EnterStatus from "./pages/EnterStatus";
-import EnterAbsence from "./pages/EnterAbsence";
-import ViewReports from "./pages/ViewReports";
-import AddEmployee from "./pages/AddEmployee";
-import DeleteEmployee from "./pages/DeleteEmployee";
+import EnterStatus from './pages/EnterStatus';
+import EnterAbsence from './pages/EnterAbsence';
+import ViewReports from './pages/ViewReports';
+import AddEmployee from './pages/AddEmployee';
+import DeleteEmployee from './pages/DeleteEmployee';
 
 
 function App() {
