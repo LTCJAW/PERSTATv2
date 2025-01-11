@@ -5,6 +5,7 @@ import EnterAbsence from './pages/EnterAbsence';
 import ViewReports from './pages/ViewReports';
 import AddEmployee from './pages/AddEmployee';
 import DeleteEmployee from './pages/DeleteEmployee';
+import { withAuthenticator } from '@aws-amplify/ui-react';
 
 const App = () => {
   return (
@@ -21,5 +22,5 @@ const App = () => {
   );
 };
 
-export default App;
+export default withAuthenticator (App);
 
